@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="75dp"
+        android:text="刪除"
+        android:textSize="25dp"
+        android:onClick="delete"
+        android:fontFamily="@font/myfont"
+
+        />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="75dp"
+        android:text="新增"
+        android:textSize="25dp"
+        android:onClick="add"
+        android:fontFamily="@font/myfont"
+
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="下一個"
+        android:textSize="25dp"
+        android:onClick="next"
+        android:fontFamily="@font/myfont"
+        />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="word"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="80dp"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="單詞"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="40dp"
+        android:layout_below="@+id/text1"
+        android:fontFamily="@font/myfont"/>
+
+
+
+
+</RelativeLayout>
